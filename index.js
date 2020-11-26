@@ -32,7 +32,7 @@ async function connect(){
                     msg.channel.send(`${msg.author.tag}你只能在NSFW的頻道才能使用本指令`)
                 }
             }
-            if (command === `pussy`) {
+            if (command === `pussy`) { //command
                 if (msg.channel.nsfw) {
                     hentai(msg, `pussy`)
                 } else {
